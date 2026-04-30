@@ -175,7 +175,6 @@ export function Header() {
                   textAlign: "left",
                   background: "none",
                   border: "none",
-                  borderBottom: "1px solid rgba(58,58,55,0.4)",
                   cursor: "pointer",
                   width: "100%",
                 }}
