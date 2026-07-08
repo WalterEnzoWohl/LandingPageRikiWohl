@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 const weddingImage =
-  "https://images.unsplash.com/photo-1768508948990-f5866f800fad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcmVjZXB0aW9uJTIwZWxlZ2FudCUyMGRyaW5rcyUyMGJhcnxlbnwxfHx8fDE3Nzc0ODgyMTh8MA&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-2.jpg";
 
 export function WeddingsSection() {
   const handleNav = (href: string) => {

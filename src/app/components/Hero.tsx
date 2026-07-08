@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 const heroImage =
-  "https://images.unsplash.com/photo-1765766600172-11694c2cebd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwY29ja3RhaWwlMjBiYXIlMjBkYXJrJTIwcHJlbWl1bXxlbnwxfHx8fDE3Nzc0ODgyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-1.jpg";
 
 export function Hero() {
   const handleNav = (href: string) => {

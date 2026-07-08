@@ -2,28 +2,28 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
 
-const heroImg = "https://images.unsplash.com/photo-1765766600172-11694c2cebd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwY29ja3RhaWwlMjBiYXIlMjBkYXJrJTIwcHJlbWl1bXxlbnwxfHx8fDE3Nzc0ODgyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const bartenderImg = "https://images.unsplash.com/photo-1770024560841-0b7c36932f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJ0ZW5kZXIlMjBtaXhpbmclMjBjb2NrdGFpbCUyMGVsZWdhbnQlMjBldmVudHxlbnwxfHx8fDE3Nzc0ODgyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const weddingImg = "https://images.unsplash.com/photo-1768508948990-f5866f800fad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcmVjZXB0aW9uJTIwZWxlZ2FudCUyMGRyaW5rcyUyMGJhcnxlbnwxfHx8fDE3Nzc0ODgyMTh8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const cocktailImg = "https://images.unsplash.com/photo-1597241693839-07d7fb803af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdsYXNzJTIwZ29sZCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc3NzQ4ODIxOHww&ixlib=rb-4.1.0&q=80&w=1080";
-const mojitImg = "https://images.unsplash.com/photo-1649435217989-6b08c42b1ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwY29ja3RhaWwlMjBtb2ppdG8lMjBsaW1lJTIwbWludHxlbnwxfHx8fDE3Nzc0ODgyMTl8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const barSetupImg = "https://images.unsplash.com/photo-1650201920651-f8aa554f0df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJ0ZW5kZXIlMjBwcm9mZXNzaW9uYWwlMjBtb2JpbGUlMjBiYXIlMjBzZXR1cHxlbnwxfHx8fDE3Nzc0ODgyMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080";
-const corporateImg = "https://images.unsplash.com/photo-1768508660861-16b3b4272e6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBldmVudCUyMGRyaW5rcyUyMHBhcnR5JTIwY2VsZWJyYXRpb258ZW58MXx8fHwxNzc3NDg4MjIyfDA&ixlib=rb-4.1.0&q=80&w=1080";
-const detailImg = "https://images.unsplash.com/photo-1695335751660-95bf176c2493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGRldGFpbCUyMGljZSUyMGNyeXN0YWwlMjBnbGFzc3dhcmV8ZW58MXx8fHwxNzc3NDg4MjI1fDA&ixlib=rb-4.1.0&q=80&w=1080";
-const quinceImg = "https://images.unsplash.com/photo-1767591311431-5bfb8cc48bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWluY2VhJUMzJUIxZXJhJTIwY2VsZWJyYXRpb24lMjBldmVudCUyMGRlY29yYXRpb258ZW58MXx8fHwxNzc3NDg4MjI2fDA&ixlib=rb-4.1.0&q=80&w=1080";
+const heroImg = "/imagenes/FOTO-1.jpg";
+const bartenderImg = "/imagenes/FOTO-4.jpg";
+const weddingImg = "/imagenes/FOTO-2.jpg";
+const cocktailImg = "/imagenes/FOTO-5.jpg";
+const mojitImg = "/imagenes/FOTO-7.jpg";
+const barSetupImg = "/imagenes/FOTO-3.jpg";
+const corporateImg = "/imagenes/FOTO-8.jpg";
+const detailImg = "/imagenes/FOTO-6.jpg";
+const quinceImg = "/imagenes/FOTO-9.jpg";
 
-const tabs = ["Todos", "Casamientos", "Cocktails", "Barra en acción", "Detalles premium", "Eventos privados", "Eventos empresariales"];
+const tabs = ["Todos", "Barra en acción", "Cocktails", "Detalles premium", "Fundador de la barra"];
 
 const allImages = [
   { src: heroImg, category: "Barra en acción", label: "Barra premium" },
-  { src: weddingImg, category: "Casamientos", label: "Casamiento elegante" },
+  { src: weddingImg, category: "Barra en acción", label: "Casamiento elegante" },
   { src: cocktailImg, category: "Cocktails", label: "Cocktail gold" },
   { src: bartenderImg, category: "Barra en acción", label: "Bartender en acción" },
   { src: mojitImg, category: "Cocktails", label: "Mojito fresco" },
-  { src: barSetupImg, category: "Barra en acción", label: "Barra montada" },
-  { src: corporateImg, category: "Eventos empresariales", label: "Evento corporativo" },
+  { src: barSetupImg, category: "Fundador de la barra", label: "Fundador de la barra" },
+  { src: corporateImg, category: "Barra en acción", label: "Evento corporativo" },
   { src: detailImg, category: "Detalles premium", label: "Cristalería de lujo" },
-  { src: quinceImg, category: "Eventos privados", label: "Celebración privada" },
+  { src: quinceImg, category: "Barra en acción", label: "Celebración privada" },
 ];
 
 export function Gallery() {

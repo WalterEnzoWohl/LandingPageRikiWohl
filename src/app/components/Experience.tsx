@@ -1,13 +1,13 @@
 import { motion } from "motion/react";
 
 const bartenderImg =
-  "https://images.unsplash.com/photo-1770024560841-0b7c36932f23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJ0ZW5kZXIlMjBtaXhpbmclMjBjb2NrdGFpbCUyMGVsZWdhbnQlMjBldmVudHxlbnwxfHx8fDE3Nzc0ODgyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-4.jpg";
 const cocktailImg =
-  "https://images.unsplash.com/photo-1597241693839-07d7fb803af1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdsYXNzJTIwZ29sZCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc3NzQ4ODIxOHww&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-5.jpg";
 const detailImg =
-  "https://images.unsplash.com/photo-1695335751660-95bf176c2493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGRldGFpbCUyMGljZSUyMGNyeXN0YWwlMjBnbGFzc3dhcmV8ZW58MXx8fHwxNzc3NDg4MjI1fDA&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-6.jpg";
 const mojitImg =
-  "https://images.unsplash.com/photo-1649435217989-6b08c42b1ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwY29ja3RhaWwlMjBtb2ppdG8lMjBsaW1lJTIwbWludHxlbnwxfHx8fDE3Nzc0ODgyMTl8MA&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-7.jpg";
 
 export function Experience() {
   return (

@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Gem, Star, Users, Heart, CheckCircle } from "lucide-react";
 
 const barSetupImg =
-  "https://images.unsplash.com/photo-1650201920651-f8aa554f0df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJ0ZW5kZXIlMjBwcm9mZXNzaW9uYWwlMjBtb2JpbGUlMjBiYXIlMjBzZXR1cHxlbnwxfHx8fDE3Nzc0ODgyMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080";
+  "/imagenes/FOTO-3.jpg";
 
 const values = [
   "Atención personalizada desde la primera consulta",
